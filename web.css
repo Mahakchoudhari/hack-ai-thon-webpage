@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo img {
+    height: 150px;
+}
+
+.text {
+    max-width: 100%;
+
+}
+
+.text h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.text p {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+}
+main{
+    background-image: url("background12.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.text{
+    color: white;
+   
+}
+/* Hero Section */
+.hero {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(184, 107, 59);
+    text-align: center;
+   
+}
+
+.hero-content h1 {
+    font-size: 7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#caption{
+    color: aqua;
+}
+.hero-content p {
+    font-size: 2rem;
+}
+#ai{
+    color: white
+}
+/* Registration Section */
+.registration {
+    padding: 2rem;
+    text-align: center;
+    color: rgb(214, 223, 231);
+}
+
+.registration form {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.registration input {
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+}
+
+.registration button {
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#confirmation-message{
+    color: aqua;
+    font-size: medium;
+}
+.registration button:hover {
+    background-color: #0052a9;
+}
+#word1{
+    color: aquamarine;
+}
+.venue{
+    color: white;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 2rem;
+    text-align: center;
+    color: rgb(207, 223, 236);
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.gallery-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.venue h2{
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.venue p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .registration input {
+        width: 80%;
+    }
+
+    .gallery-images img {
+        width: 150px;
+        height: 100px;
+    }
+}
